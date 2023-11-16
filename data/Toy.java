@@ -36,4 +36,14 @@ public class Toy {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    @Override
+    public String toString() {
+        return "Toy{" +
+               "toyId='" + id +'\'' +
+               ", Name='" + name + '\'' +
+               ", Quantity='" + quantity + '\'' +
+               ", Weight=" + weight +
+               '}';
+    }
 }

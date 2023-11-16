@@ -17,8 +17,4 @@ public class Play {
     public void setPrizeToys(List<Toy> prizeToys) {
         this.prizeToys = prizeToys;
     }
-
-    public void add(Toy prizeToy){
-        this.prizeToys.add(prizeToy);
-    }
 }
